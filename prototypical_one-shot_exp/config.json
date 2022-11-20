@@ -1,0 +1,19 @@
+{
+  "gtsrb":
+  {
+    "data_path": "/DATA/sharma86/logo_rec/VPE/db/"
+  },
+  "gtsrb2TT100K":
+  {
+    "data_path": "/DATA/sharma86/logo_rec/VPE/db/"
+  },
+  "belga2flickr":
+  {
+    "data_path": "/DATA/sharma86/logo_rec/VPE/db/"
+  },
+
+  "belga2toplogo":
+  {
+    "data_path": "/DATA/sharma86/logo_rec/VPE/db/"
+  }
+}

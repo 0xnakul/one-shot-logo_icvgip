@@ -1,3 +1,11 @@
+prototypical_one-shot_exp/checkpoints
+prototypical_one-shot_exp/lightning_logs
+prototypical_one-shot_exp/results
+prototypical_one-shot_exp/*zip
+prototypical_one-shot_exp/*.pt*
+
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
