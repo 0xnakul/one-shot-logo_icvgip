@@ -23,7 +23,7 @@ from augmentations import *
 from losses import conLossv3
 
 # Setup
-parser = ArgumentParser(description='Variational Prototyping Encoder (VPE)')
+parser = ArgumentParser(description='Prototypical Images: One-Shot setting')
 parser.add_argument('--seed',       type=int,   default=42,             help='Random seed')
 parser.add_argument('--arch',       type=str,   default='resnet50p',  help='network type: resnet50p, resnet50r')
 parser.add_argument('--dataset',    type=str,   default='belga2flickr', help='dataset to use [gtsrb, belga2flickr, belga2toplogo]') # for gtsrb2TT100K scenario, use main_train_test.py
@@ -31,7 +31,7 @@ parser.add_argument('--exp',        type=str,   default='exp_list',     help='tr
 parser.add_argument('--resume',     type=str,   default=None,           help='Resume training from previously saved model')
 
 parser.add_argument('--epochs',     type=int,   default=800,           help='Training epochs')
-parser.add_argument('--lr',         type=float, default=1e-4,           help='Learning rate')
+parser.add_argument('--lr',         type=float, default=1e-5,           help='Learning rate')
 parser.add_argument('--batch_size', type=int,   default=64,            help='Batch size')
 
 parser.add_argument('--img_cols',   type=int,   default=64,             help='resized image width')
